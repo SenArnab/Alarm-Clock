@@ -1,0 +1,160 @@
+/* Global Styles */
+/* Reset default margin, padding, and box-sizing for all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Define global body styles */
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+/* Create a class for flex display */
+.d-flex {
+  display: flex;
+}
+
+/* Style for buttons */
+.btn {
+  background-color: rgba(17, 165, 173, 0.92);
+  color: #151A1E;
+  border: 2px solid #ff4400;
+  border-radius: 30px;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+/* Style for select elements */
+select {
+  appearance: none;
+  outline: none;
+  background-color: #ffbb00;
+  padding: 10px;
+  font-weight: bold;
+  border: none;
+  border-radius: 30px;
+  margin-right: 8px;
+  cursor: pointer;
+  color: #0E141B;
+  border-color: black;
+}
+
+/* Create a margin-bottom class */
+.mb {
+  margin-bottom: 1rem;
+}
+/* End Global Styles */
+
+/* Styles for the main container */
+.main-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0E141B;
+}
+
+/* Styles for the clock container */
+.clock-container {
+  padding: 2rem;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #512B54;
+}
+
+/* Styles for the current time element */
+.current-time {
+  font-size: 2rem;
+  color: #ff6a00;
+  font-weight: bold;
+}
+
+/* Styles for the alarm form */
+.alarm-form {
+  justify-content: space-between;
+  width: 100%;
+}
+
+/* Styles for the submit button */
+.submit-button {
+  border-color: black;
+  border: 2px solid black;
+  border-radius: 30px;
+  font-weight: bold;
+}
+
+/* Styles for the set-alarm container */
+.set-alarm-container {
+  width: 100%;
+}
+
+/* Styles for the title within the set-alarm container */
+.set-alarm-container .set-alarm-container-title {
+  text-align: center;
+  color: #ff6a00;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+/* Styles for alarm elements */
+.alarm {
+  justify-content: space-between;
+  border-radius: 30px;
+  padding: 10px 20px;
+  align-items: center;
+  background-color: #ab4f22;
+}
+
+/* Styles for the delete alarm button within alarm elements */
+.alarm .delete-alarm {
+  border-radius: 30px;
+  background-color: rgba(38, 69, 88, 0.92);
+  font-weight: bold;
+  color: #BA1EB0;
+  font-size: 1.2rem;
+}
+
+/* Styles for the time element */
+.time {
+  color: #0E141B;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* Styles for button hover and focus states */
+.btn:focus,
+.btn:hover {
+  box-shadow: 2px 2px 5px 2px #ff4400 inset, -2px -2px 10px 2px #fff inset;
+}
+
+/* Styles for the page title */
+.page-title {
+  background-color: #0E141B;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ff6a00;
+  font-size: 2rem;
+}
+
+/* Styles for devices with screen size greater than or equal to 600px */
+@media only screen and (min-width: 600px) {
+  /* Add padding to the main container */
+  .main-container {
+      padding: 2rem;
+  }
+
+  /* Adjust styles for clock container */
+  .clock-container {
+      justify-content: center;
+      border-radius: 50px;
+      width: 450px;
+      min-height: auto;
+  }
+}
