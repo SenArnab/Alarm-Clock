@@ -1,11 +1,11 @@
 # Alarm Clock with Vanilla JavaScript
 
-<li> Here is the repository for Alarm Clock made using Vanilla JavaScript, HTML and CSS.</li>
-<br>
+  <li> Here is the repository for Alarm Clock made using Vanilla JavaScript, HTML and CSS.</li>
+  <br>
 
 # Problem Statement
 
-Create an alarm clock. Use ONLY vanilla javascript, no libraries or frameworks allowed for Javascript (you can use any css framework like Bootstrap).
+To create an alarm clock. Using ONLY vanilla javascript, no libraries or frameworks allowed for Javascript (you can use any css framework like Bootstrap).
 <br>
 
 # Features Required
